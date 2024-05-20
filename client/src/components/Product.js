@@ -23,7 +23,7 @@ const Product = ({ product }) => {
         >
           <img
             className="w-[160px] h-[160px] group-hover:scale-90 transition-all"
-            src={`http://localhost:1337${product.attributes.image.data.attributes.url}`}
+            src={`https://fortunate-thrill-58143f8683.strapiapp.com${product.attributes.image.data.attributes.url}`}
             alt=""
           />
         </div>
